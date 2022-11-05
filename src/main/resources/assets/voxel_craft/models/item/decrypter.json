@@ -1,0 +1,7 @@
+{
+  "parent": "voxel_craft:custom/decrypter",
+  "textures": {
+    "0": "voxel_craft:blocks/decrypter_texture",
+    "particle": "voxel_craft:items/decrypter_texture"
+  }
+}

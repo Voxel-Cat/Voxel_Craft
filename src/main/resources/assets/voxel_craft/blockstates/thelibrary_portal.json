@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "voxel_craft:block/thelibrary_portal_ew"
+    },
+    "axis=x": {
+      "model": "voxel_craft:block/thelibrary_portal_ns"
+    }
+  }
+}

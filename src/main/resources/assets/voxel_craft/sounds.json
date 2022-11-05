@@ -1,0 +1,12 @@
+{
+  "wednesdaydudes": {
+    "category": "music",
+    "subtitle": "subtitles.wednesdaydudes",
+    "sounds": [
+      {
+        "name": "voxel_craft:it-is-wednesday-my-dudes",
+        "stream": true
+      }
+    ]
+  }
+}

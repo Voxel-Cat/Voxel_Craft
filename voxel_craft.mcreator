@@ -1,0 +1,159 @@
+{
+  "mod_elements": [
+    {
+      "name": "ThelibraryPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelibrary_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thelibrary",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thelibrary",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Decrypter",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decrypter"
+    },
+    {
+      "name": "Decryptify",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "decryptify"
+    },
+    {
+      "name": "Technology",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "technology"
+    },
+    {
+      "name": "Elementalcore",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementalcore"
+    },
+    {
+      "name": "Elementalitems",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementalitems"
+    },
+    {
+      "name": "ModdedcraftingComponents",
+      "type": "tab",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moddedcrafting_components"
+    },
+    {
+      "name": "Corecasing",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corecasing"
+    },
+    {
+      "name": "Elementalcorerecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "elementalcorerecipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "wednesdaydudes",
+      "files": [
+        "it-is-wednesday-my-dudes"
+      ],
+      "category": "music",
+      "subtitle": "it is wednesday my dudes - jimmy here"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabmoddedcrafting_components": "Modded crafting Components",
+      "item.voxel_craft.decrypter": "Decrypter",
+      "item.voxel_craft.elementalcore": "Elemental core",
+      "item.voxel_craft.corecasing": "Core casing",
+      "itemGroup.tabelementalitems": "Elemental Items",
+      "itemGroup.tabtechnology": "Technology",
+      "subtitles.wednesdaydudes": "it is wednesday my dudes - jimmy here",
+      "advancements.decryptify.descr": "you have found all the LORE you could ever immagine",
+      "item.voxel_craft.thelibrary": "The library Portal Igniter",
+      "advancements.decryptify.title": "so much... LORE!"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "voxel_craft",
+    "modName": "Voxel_craft",
+    "version": "1.0.0",
+    "author": "miles, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.voxelcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}
