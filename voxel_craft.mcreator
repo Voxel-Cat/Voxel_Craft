@@ -106,6 +106,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "elementalcorerecipe"
+    },
+    {
+      "name": "Craftingcomponents",
+      "type": "tab",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftingcomponents"
     }
   ],
   "variable_elements": [],
@@ -122,6 +130,7 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabmoddedcrafting_components": "Modded crafting Components",
+      "itemGroup.tabcraftingcomponents": "Crafting components",
       "item.voxel_craft.decrypter": "Decrypter",
       "item.voxel_craft.elementalcore": "Elemental core",
       "item.voxel_craft.corecasing": "Core casing",
