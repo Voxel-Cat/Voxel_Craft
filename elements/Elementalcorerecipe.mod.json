@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -10,13 +10,13 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Quartzenrichediron"
       },
       {
         "value": "Items.WATER_BUCKET"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Quartzenrichediron"
       },
       {
         "value": "Items.LAVA_BUCKET"
@@ -28,13 +28,13 @@
         "value": "Blocks.SAPLING"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Quartzenrichediron"
       },
       {
         "value": "Blocks.DIRT"
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": "CUSTOM:Quartzenrichediron"
       }
     ],
     "recipeReturnStack": {

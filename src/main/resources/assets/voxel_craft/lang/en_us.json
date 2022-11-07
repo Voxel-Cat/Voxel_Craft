@@ -1,13 +1,20 @@
 {
   "itemGroup.tabmoddedcrafting_components": "Modded crafting Components",
-  "itemGroup.tabcraftingcomponents": "Crafting components",
+  "item.voxel_craft.icescepter": "Ice staff",
+  "item.voxel_craft.icespike": "Ice spike",
+  "advancements.ohnowhathavewedone.descr": "slay a frost tower",
+  "itemGroup.tabtechnology": "Technology",
+  "block.voxel_craft.frosttowerpedestal": "Frost tower pedestal",
+  "item.voxel_craft.frosttower_spawn_egg": "Frost tower Spawn Egg",
+  "item.voxel_craft.thelibrary": "The library Portal Igniter",
+  "entity.voxel_craft.frosttower": "Frost tower",
   "item.voxel_craft.decrypter": "Decrypter",
   "item.voxel_craft.elementalcore": "Elemental core",
   "item.voxel_craft.corecasing": "Core casing",
   "itemGroup.tabelementalitems": "Elemental Items",
-  "itemGroup.tabtechnology": "Technology",
   "subtitles.wednesdaydudes": "it is wednesday my dudes - jimmy here",
   "advancements.decryptify.descr": "you have found all the LORE you could ever immagine",
-  "item.voxel_craft.thelibrary": "The library Portal Igniter",
+  "item.voxel_craft.quartzenrichediron": "Quartz enriched iron",
+  "advancements.ohnowhathavewedone.title": "we slay the beast",
   "advancements.decryptify.title": "so much... LORE!"
 }

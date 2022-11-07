@@ -15,7 +15,6 @@ public class VoxelCraftModTabs {
 	public static CreativeModeTab TAB_TECHNOLOGY;
 	public static CreativeModeTab TAB_ELEMENTALITEMS;
 	public static CreativeModeTab TAB_MODDEDCRAFTING_COMPONENTS;
-	public static CreativeModeTab TAB_CRAFTINGCOMPONENTS;
 
 	public static void load() {
 		TAB_TECHNOLOGY = new CreativeModeTab("tabtechnology") {
@@ -41,17 +40,6 @@ public class VoxelCraftModTabs {
 			}
 		}.setBackgroundSuffix("item_search.png");
 		TAB_MODDEDCRAFTING_COMPONENTS = new CreativeModeTab("tabmoddedcrafting_components") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(Blocks.COMMAND_BLOCK);
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return true;
-			}
-		}.setBackgroundSuffix("item_search.png");
-		TAB_CRAFTINGCOMPONENTS = new CreativeModeTab("tabcraftingcomponents") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(Blocks.CRAFTING_TABLE);

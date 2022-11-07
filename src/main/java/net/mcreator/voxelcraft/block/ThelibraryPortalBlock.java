@@ -24,9 +24,12 @@ import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.mcreator.voxelcraft.world.teleporter.ThelibraryTeleporter;
 import net.mcreator.voxelcraft.world.teleporter.ThelibraryPortalShape;
+import net.mcreator.voxelcraft.init.VoxelCraftModBlocks;
 
 import java.util.Random;
 import java.util.Optional;
@@ -103,5 +106,10 @@ public class ThelibraryPortalBlock extends NetherPortalBlock {
 	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
 		entity.changeDimension(entity.getServer().getLevel(destinationType),
 				new ThelibraryTeleporter(entity.getServer().getLevel(destinationType), pos));
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(VoxelCraftModBlocks.THELIBRARY_PORTAL.get(), renderType -> renderType == RenderType.translucent());
 	}
 }

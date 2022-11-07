@@ -1,0 +1,8 @@
+{
+  "parent": "voxel_craft:custom/frost_tower_pedestal",
+  "textures": {
+    "all": "voxel_craft:blocks/frost_tower_pedestal",
+    "particle": "voxel_craft:blocks/frost_tower_pedestal",
+    "0": "voxel_craft:blocks/frost_tower_pedestal"
+  }
+}

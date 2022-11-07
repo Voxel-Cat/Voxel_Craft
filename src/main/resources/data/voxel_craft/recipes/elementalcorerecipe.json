@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_ingot"
+      "item": "voxel_craft:quartzenrichediron"
     },
     {
       "item": "minecraft:water_bucket"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "voxel_craft:quartzenrichediron"
     },
     {
       "item": "minecraft:lava_bucket"
@@ -20,13 +20,13 @@
       "tag": "minecraft:saplings"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "voxel_craft:quartzenrichediron"
     },
     {
       "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "voxel_craft:quartzenrichediron"
     }
   ],
   "result": {

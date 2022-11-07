@@ -1,0 +1,7 @@
+{
+  "parent": "voxel_craft:custom/ice_scepter",
+  "textures": {
+    "0": "voxel_craft:blocks/scepter_of_ice",
+    "particle": "voxel_craft:items/scepter_of_ice"
+  }
+}

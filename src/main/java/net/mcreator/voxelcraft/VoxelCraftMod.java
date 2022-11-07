@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.voxelcraft.init.VoxelCraftModTabs;
 import net.mcreator.voxelcraft.init.VoxelCraftModItems;
+import net.mcreator.voxelcraft.init.VoxelCraftModEntities;
 import net.mcreator.voxelcraft.init.VoxelCraftModBlocks;
 
 import java.util.function.Supplier;
@@ -48,6 +49,7 @@ public class VoxelCraftMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		VoxelCraftModBlocks.REGISTRY.register(bus);
 		VoxelCraftModItems.REGISTRY.register(bus);
+		VoxelCraftModEntities.REGISTRY.register(bus);
 
 	}
 

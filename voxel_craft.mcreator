@@ -108,12 +108,276 @@
       "registry_name": "elementalcorerecipe"
     },
     {
-      "name": "Craftingcomponents",
-      "type": "tab",
+      "name": "Quartzenrichediron",
+      "type": "item",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "craftingcomponents"
+      "registry_name": "quartzenrichediron"
+    },
+    {
+      "name": "Quartzenrichedironrecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartzenrichedironrecipe"
+    },
+    {
+      "name": "IcescepterProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icescepter_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Icescepter",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icescepter"
+    },
+    {
+      "name": "IcespikeWhileProjectileFlyingTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icespike_while_projectile_flying_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IcespikeProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icespike_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Icespike",
+      "type": "rangeditem",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icespike"
+    },
+    {
+      "name": "Frosttowerpedestal",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosttowerpedestal"
+    },
+    {
+      "name": "Frosttower",
+      "type": "livingentity",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosttower"
+    },
+    {
+      "name": "FrosttowerpedestalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosttowerpedestal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ohnowhathavewedone",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohnowhathavewedone"
+    },
+    {
+      "name": "Icetowerspawning",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icetowerspawning",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrosttowerOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frosttower_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IcespikeProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icespike_projectile_hits_living_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IcespikeRangedItemUsed",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icespike_ranged_item_used",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -130,15 +394,22 @@
   "language_map": {
     "en_us": {
       "itemGroup.tabmoddedcrafting_components": "Modded crafting Components",
-      "itemGroup.tabcraftingcomponents": "Crafting components",
+      "item.voxel_craft.icescepter": "Ice staff",
+      "item.voxel_craft.icespike": "Ice spike",
+      "advancements.ohnowhathavewedone.descr": "slay a frost tower",
+      "itemGroup.tabtechnology": "Technology",
+      "block.voxel_craft.frosttowerpedestal": "Frost tower pedestal",
+      "item.voxel_craft.frosttower_spawn_egg": "Frost tower Spawn Egg",
+      "item.voxel_craft.thelibrary": "The library Portal Igniter",
+      "entity.voxel_craft.frosttower": "Frost tower",
       "item.voxel_craft.decrypter": "Decrypter",
       "item.voxel_craft.elementalcore": "Elemental core",
       "item.voxel_craft.corecasing": "Core casing",
       "itemGroup.tabelementalitems": "Elemental Items",
-      "itemGroup.tabtechnology": "Technology",
       "subtitles.wednesdaydudes": "it is wednesday my dudes - jimmy here",
       "advancements.decryptify.descr": "you have found all the LORE you could ever immagine",
-      "item.voxel_craft.thelibrary": "The library Portal Igniter",
+      "item.voxel_craft.quartzenrichediron": "Quartz enriched iron",
+      "advancements.ohnowhathavewedone.title": "we slay the beast",
       "advancements.decryptify.title": "so much... LORE!"
     }
   },
@@ -164,5 +435,5 @@
     "modElementsPackage": "net.mcreator.voxelcraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200345616
 }
